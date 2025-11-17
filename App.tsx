@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import Wizard from './components/Wizard';
 import ResultsDisplay from './components/ResultsDisplay';
@@ -9,7 +8,7 @@ const Header = () => (
   <header className="absolute top-0 left-0 right-0 p-4 z-10">
     <div className="container mx-auto flex justify-center md:justify-start">
       <h1 className="text-2xl font-bold text-white font-orbitron tracking-widest text-shadow-glow">
-        오늘뭐<span className="text-cyan-400">먹지</span>
+        오늘뭐<span className="text-cyan-400">먹지?</span>
       </h1>
     </div>
   </header>
